@@ -28,6 +28,7 @@ dependencies {
     
     //Estilos Google Material Design
     compile 'com.netopyr.reduxfx:reduxfx-jfoenix:0.4.1'
+    
 
 }
 
