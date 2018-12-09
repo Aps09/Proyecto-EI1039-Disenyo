@@ -25,5 +25,9 @@ dependencies {
 
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    
+    //Estilos Google Material Design
+    compile 'com.netopyr.reduxfx:reduxfx-jfoenix:0.4.1'
+
 }
 
