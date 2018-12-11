@@ -7,11 +7,20 @@ public class Contacto {
 	//Falta constructor por defecto
 	//Falta controlar valores no válidos listas
 	
+	private int id;
 	private String nombre;
 	private String apellido;
 	private List<Email> emails;
 	private List<Telefono> telefonos;
 	private List<String> grupos;
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public int getId() {
+		return id;
+	}
 
 	public String getNombre() {
 		return nombre;
