@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="112.0" prefWidth="600.0" style="-fx-background-color: #001833;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox layoutX="14.0" layoutY="43.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <JFXTextField focusColor="#22c927" layoutX="14.0" layoutY="43.0" promptText="Nombre" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField focusColor="#22c927" layoutX="316.0" layoutY="43.0" promptText="Apellidos" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXTextField>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="126.0" prefHeight="523.0" prefWidth="600.0" style="-fx-background-color: #001833;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="126.0">
+         <children>
+            <Label layoutX="24.0" layoutY="24.0" prefHeight="27.0" prefWidth="282.0" text="Crear/Editar Telefonos" textFill="#f8f4f4" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="24.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <HBox layoutX="24.0" layoutY="84.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="84.0">
+               <children>
+                  <JFXComboBox editable="true" layoutX="24.0" layoutY="85.0" prefHeight="43.0" prefWidth="215.0" promptText="Telefonos" style="-fx-background-color: #00070F;" unFocusColor="WHITE" />
+                  <JFXTextField focusColor="#22c927" layoutX="257.0" layoutY="85.0" prefHeight="43.0" prefWidth="192.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXButton layoutX="459.0" layoutY="85.0" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: #00070F;" text="Confirmar" textFill="WHITE" />
+               </children>
+            </HBox>
+            <Label layoutX="38.0" layoutY="197.0" prefHeight="27.0" prefWidth="282.0" text="Crear/Editar Correos" textFill="#f8f4f4" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="197.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <HBox layoutX="20.0" layoutY="383.0" spacing="10.0">
+               <children>
+                  <JFXCheckBox layoutX="20.0" layoutY="391.0" style="-fx-background-color: #00070F;" text="Trabajo" textFill="WHITE" />
+                  <JFXCheckBox layoutX="142.0" layoutY="402.0" style="-fx-background-color: #00070F;" text="Familiares" textFill="WHITE" />
+                  <JFXCheckBox layoutX="268.0" layoutY="391.0" style="-fx-background-color: #00070F;" text="Amigos" textFill="WHITE" />
+               </children>
+            </HBox>
+            <Label layoutX="33.0" layoutY="337.0" prefHeight="27.0" prefWidth="384.0" text="Editar Grupos a los que pertenece" textFill="#f8f4f4" AnchorPane.leftAnchor="20.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <HBox layoutX="38.0" layoutY="257.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="257.0">
+               <children>
+                  <JFXComboBox editable="true" layoutX="38.0" layoutY="258.0" prefHeight="43.0" prefWidth="215.0" promptText="Correos" style="-fx-background-color: #00070F;" unFocusColor="WHITE" />
+                  <JFXTextField focusColor="#22c927" layoutX="271.0" layoutY="258.0" prefHeight="43.0" prefWidth="192.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXButton layoutX="473.0" layoutY="258.0" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: #00070F;" text="Confirmar" textFill="WHITE" />
+               </children>
+            </HBox>
+            <HBox layoutX="264.0" layoutY="455.0" spacing="10.0" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="60.0">
+               <children>
+                  <JFXButton layoutX="265.0" layoutY="456.0" prefHeight="43.0" prefWidth="133.0" style="-fx-background-color: #00070F;" text="Nuevos Grupos" textFill="WHITE" />
+                  <JFXButton layoutX="416.0" layoutY="456.0" prefHeight="43.0" prefWidth="133.0" style="-fx-background-color: #00070F;" text="Volver" textFill="WHITE" />
+               </children>
+            </HBox>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

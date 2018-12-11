@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="4.0" layoutY="38.0" AnchorPane.topAnchor="38.0" />
+      <Label layoutX="10.0" layoutY="10.0" text="Contactos" />
+      <HBox layoutX="300.0" layoutY="38.0" spacing="10.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="38.0">
+         <children>
+            <Button layoutX="300.0" layoutY="38.0" mnemonicParsing="false" text="Añadir" />
+            <Button layoutX="405.0" layoutY="39.0" mnemonicParsing="false" text="Grupos" />
+            <Button layoutX="503.0" layoutY="38.0" mnemonicParsing="false" text="Configuración" />
+         </children>
+      </HBox>
+      <ScrollPane layoutX="5.0" layoutY="80.0" prefViewportHeight="215.0" prefViewportWidth="590.0" prefWidth="1500.0" AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="80.0">
+         <content>
+            <TableView prefHeight="900.0" prefWidth="1900.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="80.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="Nombre" />
+                <TableColumn prefWidth="84.0" text="Telefono" />
+                  <TableColumn prefWidth="67.0" text="Correo" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #001833;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox layoutX="14.0" layoutY="43.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <children>
+                  <JFXTextField editable="false" focusColor="#22c927" layoutX="14.0" layoutY="43.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField editable="false" focusColor="#22c927" layoutX="316.0" layoutY="43.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXTextField>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="126.0" prefHeight="523.0" prefWidth="600.0" style="-fx-background-color: #001833;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="127.0">
+         <children>
+            <Label layoutX="24.0" layoutY="24.0" prefHeight="27.0" prefWidth="282.0" text="Telefonos" textFill="#f8f4f4" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="24.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <TabPane layoutX="20.0" layoutY="84.0">
+               <tabs>
+                  <Tab disable="true">
+                     <content>
+                        <HBox layoutX="24.0" layoutY="84.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="84.0">
+                           <children>
+                              <JFXTextField editable="false" focusColor="#22c927" layoutX="257.0" layoutY="85.0" prefHeight="43.0" prefWidth="192.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </JFXTextField>
+                              <JFXTextField editable="false" focusColor="#22c927" prefHeight="43.0" prefWidth="192.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </JFXTextField>
+                           </children>
+                        </HBox>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+            <Label layoutX="38.0" layoutY="197.0" prefHeight="27.0" prefWidth="282.0" text="Correos" textFill="WHITE" AnchorPane.leftAnchor="20.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="120.0" layoutY="185.0" startX="-100.0" AnchorPane.leftAnchor="19.5" AnchorPane.rightAnchor="379.5" />
+            <TabPane layoutX="20.0" layoutY="257.0" AnchorPane.leftAnchor="20.0">
+               <tabs>
+                  <Tab>
+                     <content>
+                        <HBox layoutX="38.0" layoutY="257.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="257.0">
+                           <children>
+                              <JFXTextField editable="false" focusColor="#22c927" layoutX="271.0" layoutY="258.0" prefHeight="43.0" prefWidth="192.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </JFXTextField>
+                              <JFXTextField editable="false" focusColor="#22c927" prefHeight="43.0" prefWidth="192.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </JFXTextField>
+                           </children>
+                        </HBox>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+            <Line endX="100.0" layoutX="294.0" layoutY="360.0" startX="-100.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+            <HBox layoutX="70.0" layoutY="403.0" spacing="10.0" AnchorPane.leftAnchor="20.0">
+               <children>
+                  <JFXButton layoutX="71.0" layoutY="404.0" style="-fx-background-color: #00070F;" text="Editar" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="196.0" layoutY="404.0" style="-fx-background-color: #00070F;" text="Borrar contacto" textFill="WHITE">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #001833;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="24.0" layoutY="41.0" text="Congiguración de grupos" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="Arial" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="126.0" prefHeight="523.0" prefWidth="600.0" style="-fx-background-color: #001833;" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="126.0">
+         <children>
+            <Label layoutX="24.0" layoutY="24.0" prefHeight="27.0" prefWidth="282.0" text="Ordenar contactos" textFill="#f8f4f4" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="24.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <HBox layoutX="24.0" layoutY="84.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="84.0">
+               <children>
+                  <JFXComboBox editable="true" layoutX="24.0" layoutY="85.0" prefHeight="43.0" prefWidth="215.0" promptText="Ordenar por..." style="-fx-background-color: #00070F;" unFocusColor="WHITE" />
+                  <JFXButton layoutX="459.0" layoutY="85.0" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: #00070F;" text="Confirmar" textFill="WHITE" />
+               </children>
+            </HBox>
+            <Label layoutX="38.0" layoutY="197.0" prefHeight="27.0" prefWidth="282.0" text="Crear copia de contactos" textFill="#f8f4f4" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="197.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <HBox layoutX="38.0" layoutY="257.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="257.0">
+               <children>
+                  <JFXComboBox editable="true" layoutX="38.0" layoutY="258.0" prefHeight="43.0" prefWidth="215.0" promptText="Tipo ficheros" style="-fx-background-color: #00070F;" unFocusColor="WHITE" />
+                  <JFXButton layoutX="473.0" layoutY="258.0" prefHeight="43.0" prefWidth="102.0" style="-fx-background-color: #00070F;" text="Confirmar" textFill="WHITE" />
+               </children>
+            </HBox>
+            <JFXButton prefHeight="43.0" prefWidth="133.0" style="-fx-background-color: #00070F;" text="Volver" textFill="WHITE" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="60.0" />
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

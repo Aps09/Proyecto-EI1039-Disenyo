@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane disable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="110.0" prefWidth="600.0" style="-fx-background-color: #001833;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox layoutX="14.0" layoutY="43.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0" />
+            <Label layoutX="162.0" layoutY="45.0" text="Configuración de grupos" textFill="WHITE" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+               <font>
+                  <Font name="Arial" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="126.0" prefHeight="523.0" prefWidth="600.0" style="-fx-background-color: #001833;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="127.0">
+         <children>
+            <Label layoutX="24.0" layoutY="24.0" prefHeight="27.0" prefWidth="282.0" text="Grupos creados" textFill="#f8f4f4" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="24.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <VBox layoutX="20.0" layoutY="84.0">
+               <children>
+                  <TabPane layoutX="20.0" layoutY="84.0">
+                     <tabs>
+                        <Tab disable="true">
+                           <graphic>
+                              <JFXTextField focusColor="#22c927" prefHeight="43.0" prefWidth="192.0" style="-fx-background-color: #00070F;" unFocusColor="#ddd8d8">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </JFXTextField>
+                           </graphic>
+                        </Tab>
+                     </tabs>
+                  </TabPane>
+               </children>
+            </VBox>
+            <Label layoutX="38.0" layoutY="197.0" prefHeight="27.0" prefWidth="282.0" text="Añadir" textFill="WHITE" AnchorPane.leftAnchor="20.0">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Line endX="100.0" layoutX="120.0" layoutY="185.0" startX="-100.0" AnchorPane.leftAnchor="19.5" AnchorPane.rightAnchor="379.5" />
+            <TabPane layoutX="20.0" layoutY="257.0" AnchorPane.leftAnchor="20.0" />
+            <Line endX="100.0" layoutX="294.0" layoutY="360.0" startX="-100.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+            <JFXButton layoutX="431.0" layoutY="430.0" style="-fx-background-color: #00070F;" text="Volver" textFill="WHITE" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="60.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </JFXButton>
+            <HBox layoutX="70.0" layoutY="403.0" spacing="10.0" AnchorPane.leftAnchor="20.0" />
+            <HBox layoutX="27.0" layoutY="263.0" spacing="10.0" AnchorPane.leftAnchor="20.0">
+               <children>
+                  <JFXTextField focusColor="#22c927" layoutX="27.0" layoutY="264.0" prefHeight="43.0" prefWidth="192.0" style="-fx-background-color: #00070F;" text="Nuevo grupo" unFocusColor="#ddd8d8">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXButton layoutX="229.0" layoutY="264.0" prefHeight="43.0" prefWidth="126.0" style="-fx-background-color: #00070F;" text="Confirmar" textFill="WHITE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
