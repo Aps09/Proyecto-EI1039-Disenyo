@@ -5,6 +5,7 @@ import abstractFeatures.IBasicModelView;
 import abstractFeatures.IBasicView;
 import configuration.ConfigureDaoFile;
 import configuration.IConfigureDao;
+import fileStorage.ManageFile;
 import model.BasicModel;
 import model.Model;
 import view.BasicView;
@@ -29,6 +30,7 @@ public class Main {
 		setUpDefaultConfiguration();
 		setUpConfigurationMVVM();
 		setUpRelationshipsMVVM();
+		ManageFile.getInstance();
 	}
 	
 	private static void setUpDefaultConfiguration() {
